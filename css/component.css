@@ -17,6 +17,7 @@
  * Navigationbar
  * Welcome
  * Section
+ * CallButton
 **/
 
 /*-------------------------*/
@@ -104,7 +105,7 @@
 }
 /* padding */
 .givePadding{
-    padding-top: 14vh;
+    padding-top: 15.5vh;
     padding-bottom: 10vh;
 }
 .titlePadding{
@@ -138,6 +139,7 @@
 /* background color*/
 .bg-color-default{background-color: #6C6C6C;}
 .bg-color-light-grey{background-color: #EEEEEE;}
+.bg-color-light-blue{background-color: #E0EEFE;}
 .bg-color-blue{background-color: #CFDDED;}
 .bg-color-deep-blue{background-color: #8B99A9;}
 .bg-color-white{background-color: #fff;}
@@ -338,11 +340,21 @@ a:focus {
 /*-------------------------*/
 /* Welcome
 ---------------------------*/
+@media(max-width:500px){
+   .welcome-text{
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    /*color: #fff;*/
+   }
+}
+
 /*-------------------------*/
 /* Section
 ---------------------------*/
+/*-------------------------*/
+/* Call Button
+---------------------------*/
+.callbutton{
 
-/*.col-1-2.contentbox{
-    height: 350px;
-}*/
-
+}
