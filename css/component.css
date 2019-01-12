@@ -190,6 +190,18 @@ a:focus {
     color: #2368b2;
     text-decoration: none;
 }
+/* texture */
+.u-shadow{
+    -webkit-box-shadow: 3px 3px 10px 1px rgba(194,194,194,1);
+    -moz-box-shadow: 3px 3px 10px 1px rgba(194,194,194,1);
+    box-shadow: 3px 3px 10px 1px rgba(194,194,194,1);
+}
+.u-shadow-minor{
+    -webkit-box-shadow: 3px 3px 11px 1px rgba(240,237,240,0.73);
+    -moz-box-shadow: 3px 3px 11px 1px rgba(240,237,240,0.73);
+    box-shadow: 3px 3px 11px 1px rgba(240,237,240,0.73);
+}
+
 /*-------------------------*/
 /* $Button
 ---------------------------*/
@@ -225,11 +237,11 @@ a:focus {
     transition: background-color: 0.3s;
 }
 .btn:hover{
-    background-color: #CFDDED;
-    color: #26323f;
+    background-color: #2268B2;
+    color: #E0EEFE;
 }
 .btn:active{
-    background-color: #CFDDED;
+    background-color: #2268B2;
 }
 /* button size */
 .btn.btn--lg{
@@ -280,8 +292,10 @@ a:focus {
     height:36px;
     width: 36px;
     display: inline-block; 
-    background-color: #2368b2;
+    /*background-color: #2368b2;*/
+    background-image: linear-gradient(to top, #2368b2, #5584c1, #7ea2d0, #a6bfdf, #cfdded);
     border-radius: 18px;
+    opacity: 0.9;
 }
 @media(max-width:500px){
  .logo__title{
@@ -423,10 +437,6 @@ a:focus {
 ---------------------------*/
 .contentbox{
     border-radius: 2px;
-    -webkit-box-shadow: 3px 3px 10px 1px rgba(194,194,194,1);
-    -moz-box-shadow: 3px 3px 10px 1px rgba(194,194,194,1);
-    box-shadow: 3px 3px 10px 1px rgba(194,194,194,1);
-
 }
 /*-------------------------*/
 /* Call Button
