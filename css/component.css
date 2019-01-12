@@ -3,8 +3,8 @@
  * Description
  * Vertion
  * Copyright
- * Author
- * Last Modified Date
+ * Author: Karen HaoYi Tu
+ * Last Modified Date: Jan 12 2019 19:38
  *
  */
 /*-------------------------*/
@@ -14,6 +14,7 @@
  * Catalog
  * Layout
  * Base
+ * Button
  * Navigationbar
  * Welcome
  * Section
@@ -156,6 +157,7 @@
 .u-padding-4{padding: 4px !important;}
 .u-padding-8{padding: 8px !important;}
 .u-padding-bt-120{padding-bottom: 120px !important;}
+.u-padding-tp-8{padding-top: 8px !important;}
 /* margin */
 .u-margin-4{margin: 4px !important;}
 .u-margin-8{margin: 8px !important;}
@@ -188,6 +190,51 @@ a:focus {
     color: #2368b2;
     text-decoration: none;
 }
+/*-------------------------*/
+/* $Button
+---------------------------*/
+.btn{
+    /*border: 1px solid #E041FE; */
+    /* structure */
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    min-width: 100px;
+    user-select: none;
+    user-drag: none;
+    /* text-style */
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    /* color-style */
+    color: #26323f;
+    background-color: #E0EEFE;
+    /* interact */
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color: 0.3s;
+}
+.btn:hover{
+    background-color: #CFDDED;
+    color: #26323f;
+}
+.btn:active{
+    background-color: #CFDDED;
+}
+/* button size */
+
+
+
 /*-------------------------*/
 /* $Navigationbar
 ---------------------------*/
