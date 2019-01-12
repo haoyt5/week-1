@@ -232,7 +232,11 @@ a:focus {
     background-color: #CFDDED;
 }
 /* button size */
-
+.btn.btn--lg{
+    line-height: 46px;
+    height: 46px;
+    font-weight: 700;
+}
 
 
 /*-------------------------*/
