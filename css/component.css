@@ -78,6 +78,13 @@
     float: left;
     width: 50%;
     display: block;
+    /*border: solid 1px #444;*/
+}
+@media (max-width: 500px){
+    .col-1-2{
+    width: 100%;
+    display: block;
+}
 }
 /* Global*/
 *{
@@ -97,12 +104,12 @@
 }
 /* padding */
 .givePadding{
-    padding-top: 20vh;
-    padding-bottom: 16vh;
+    padding-top: 14vh;
+    padding-bottom: 10vh;
 }
 .titlePadding{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 .wrapper{
 	overflow: hidden;
@@ -217,6 +224,7 @@ a:focus {
     width: 48px;
     display: inline-block; 
     background-color: #4444;
+    border-radius: 24px;
 }
 /* menu */
 .menu{
@@ -294,8 +302,8 @@ a:focus {
     /*border: solid 1px #444;*/
     /*display: block;*/
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0.2vh;
+    right: 2.5vw;
     /*background-color: #fff;*/
     }
     .popup-menu__close span{
@@ -334,7 +342,7 @@ a:focus {
 /* Section
 ---------------------------*/
 
-.col-1-2.contentbox{
+/*.col-1-2.contentbox{
     height: 350px;
-}
+}*/
 
