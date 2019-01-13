@@ -51,7 +51,7 @@
 
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+   width: 750vw;
   }
 }
 @media (min-width: 992px) {
@@ -72,8 +72,8 @@
     visibility: hidden;
 }*/
 .row {
-  margin-left: -16px;
-  margin-right: -16px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .col-1-2{
@@ -86,8 +86,15 @@
     .col-1-2{
     width: 100%;
     display: block;
+    }
 }
+@media (max-width: 800px){
+    .col-1-2{
+    width: 100%;
+    display: block;
+    }
 }
+
 /* Global*/
 *{
     position: relative;
@@ -107,7 +114,7 @@
 /* padding */
 .givePadding{
     padding-top: 15.5vh;
-    padding-bottom: 10vh;
+    padding-bottom: 11vh;
 }
 .titlePadding{
     padding-top: 3vh;
