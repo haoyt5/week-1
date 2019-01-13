@@ -4,7 +4,7 @@
  * Vertion
  * Copyright
  * Author: Karen HaoYi Tu
- * Last Modified Date: Jan 12 2019 19:38
+ * Last Modified Date: Jan 13 2019 16:09
  *
  */
 /*-------------------------*/
@@ -51,12 +51,12 @@
 
 @media (min-width: 768px) {
   .container {
-   width: 750vw;
+   width: 97.5vw;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 97.5vw;
   }
 }
 @media (min-width: 1200px) {
@@ -82,13 +82,13 @@
     display: block;
     /*border: solid 1px #444;*/
 }
-@media (max-width: 500px){
+/*@media (max-width: 500px){
     .col-1-2{
     width: 100%;
     display: block;
     }
-}
-@media (max-width: 800px){
+}*/
+@media (max-width: 500px){
     .col-1-2{
     width: 100%;
     display: block;
